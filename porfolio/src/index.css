@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur271.cur), auto !important;
+
+}
+
+body{
+    background-color: #EEE5E9;
+    font-family: 'Raleway', sans-serif;
+    color: #004F2D;
+    overflow-x: hidden;
+}
+
+#indice{
+    background-image: url('./public/images/bg-gatinho.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+#titulo--indice{
+    text-align: center;
+    color: #F28F3B;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 62.5%;
+    margin-right: -25%;
+}
+
+#indice > ol{
+    margin-left: auto;
+    width: 70%;
+}
+
+a{
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat997.cur), auto !important;
+}
+
+#hr--indice{
+    margin-right: -30%;
+}
+
+#titulo{
+    text-align: center;
+    color: #F28F3B;
+    font-family: 'Poppins',sans-serif;
+    padding: 2vh;
+    margin-right: -20%;
+}
+
+#hr--aside{
+    border: 1.5px solid #50B2C0;
+    width: 50%;
+    margin-bottom: 70%;
+}
+
+.barraLateral--aside{
+    background-color: #4B4E6D;
+    height: 850vh;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    max-width: 20%;
+}
+
+span{
+    padding: 2.4vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+.englobaElementos--aside{
+    color: #EEE5E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 3vh;
+    margin: 3px;
+}
+
+.minhaFoto--aside{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border-radius: 500px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-bottom: 10.6px;
+}
+
+.icon--aside{
+    width: 30px;
+    filter: invert(100%);
+}
+
+.titulo--projetos{
+    color: #DB3069;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #50B2C0;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr{
+    border:1px solid #F28F3B;
+    margin: 5vh;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+}
+
+/*
+    SCROLLBAR STYLE
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F28F3B; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #DB3069; 
+  }
