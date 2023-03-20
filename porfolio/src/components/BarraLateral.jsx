@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BarraLateral(){
     return(
-        <aside className='barraLateral--aside'>
+        <aside className='barraLateral--aside' id='barra'>
             <div className="englobaElementos--aside">
                 <img src="./images/eu.jpeg" className="minhaFoto--aside"/>
                 <h1>Vitória Piloto</h1>

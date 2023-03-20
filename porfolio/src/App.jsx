@@ -39,6 +39,7 @@ function App() {
     function mostrarProjeto(){
       setProjeto(oldProjeto => !oldProjeto)
     }
+
   return (
     <>
       <BarraLateral/>

@@ -32,5 +32,20 @@ export default [
         id: 6,
         nomeProjeto: "Modo Noturno ON/OFF",
         img: "https://github.com/VitoriaPiloto/modo-noturno-on-off/raw/main/print.gif",
+    },
+    {
+        id: 7,
+        nomeProjeto: "Gerador de Memes",
+        img: "https://github.com/VitoriaPiloto/studies-react/raw/main/print.png",
+    },
+    {
+        id: 8,
+        nomeProjeto: "Editor de Markdown - Notas",
+        img: "https://github.com/VitoriaPiloto/studies-react/raw/main/printMDNotes.gif",
+    },
+    {
+        id: 9,
+        nomeProjeto: "Tenzies Game",
+        img: "https://github.com/VitoriaPiloto/studies-react/raw/main/tenzies.gif",
     }
 ];
