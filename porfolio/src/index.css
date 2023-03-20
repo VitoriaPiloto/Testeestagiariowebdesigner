@@ -15,7 +15,7 @@ body{
 }
 
 #indice{
-    background-image: url('./public/images/bg-gatinho.png');
+    background-image: url("https://www.imagemhost.com.br/images/2023/03/20/bg-gatinho.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;

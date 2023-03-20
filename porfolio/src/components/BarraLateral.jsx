@@ -4,15 +4,15 @@ export default function BarraLateral(){
     return(
         <aside className='barraLateral--aside'>
             <div className="englobaElementos--aside">
-                <img src="./public/images/eu.jpeg" className="minhaFoto--aside"/>
+                <img src="./images/eu.jpeg" className="minhaFoto--aside"/>
                 <h1>Vitória Piloto</h1>
                 <h4>20 anos, front-end developer </h4>
                 <span>Cursando Análise e Desenvolvimento de Sistemas</span>
                 <p>vitoriapiloto447@gmail.com </p>
                 <p> (21)9940611177 </p>
                 <br/>
-                <a href='https://github.com/VitoriaPiloto'><img src="./public/images/icon-github.png" className='icon--aside'/></a>
-                <a href='https://www.linkedin.com/in/vitoriapiloto/'><img src="./public/images/icon-linkedin.png" className='icon--aside'/></a>
+                <a href='https://github.com/VitoriaPiloto'><img src="https://www.imagemhost.com.br/images/2023/03/20/icon-github.png" className='icon--aside'/></a>
+                <a href='https://www.linkedin.com/in/vitoriapiloto/'><img src="https://www.imagemhost.com.br/images/2023/03/20/icon-linkedin.png" className='icon--aside'/></a>
 
                 <hr id='hr--aside'/>
                 <h1>Hard Skills:</h1>
