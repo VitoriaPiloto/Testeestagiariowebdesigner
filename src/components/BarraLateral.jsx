@@ -4,7 +4,7 @@ export default function BarraLateral(){
     return(
         <aside className='barraLateral--aside' id='barra'>
             <div className="englobaElementos--aside">
-                <img src="./images/eu.jpeg" className="minhaFoto--aside"/>
+                <img src="https://media.licdn.com/dms/image/D4E03AQHULy8MeJIGQA/profile-displayphoto-shrink_800_800/0/1668528078101?e=1684972800&v=beta&t=_AvAVX-jKHrmIEg7_ovWBwMotQ6qy0SBKV3J6YzlIiU" className="minhaFoto--aside"/>
                 <h1>Vitória Piloto</h1>
                 <h4>20 anos, front-end developer </h4>
                 <span>Cursando Análise e Desenvolvimento de Sistemas</span>

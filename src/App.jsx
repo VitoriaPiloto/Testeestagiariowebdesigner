@@ -50,8 +50,8 @@ function App() {
         handleClickCuriosidade={mostrarCuriosidade}
         handleClickProjeto={mostrarProjeto}
       />
-      {resumo&& <h1 id='titulo'>Resumo</h1>}
-      {resumo&& <Resumo/>}
+      {resumo && <h1 id='titulo'>Resumo</h1> }
+      {resumo && <Resumo/>}
       {academia && <h1 id='titulo'>Formação Acadêmica</h1>}
       {academia && <Academico/>}
       {experiencia && <h1 id='titulo'>Experiência Anterior</h1>}
