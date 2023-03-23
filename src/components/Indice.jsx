@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Indice(props){
     return(
-        <section className="center" id='indice'>
-            <h1 id='titulo--indice'>Índice</h1>
+        <section id='indice'>
+            <h1 id='titulo--indice' className='center'>Índice</h1>
             <ol>
                 <h2>
                     <a onClick={props.handleClickResumo}>

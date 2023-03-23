@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resumo(){
     return(
-        <div className="center" id="resumo">
+        <section className="center" id="resumo">
             <p>
             Sou focada, curiosa, responsável e tenho facilidade com trabalho em
             equipe. Possuo conhecimento em desenvolvimento web front-end (HTML, CSS,
@@ -12,6 +12,6 @@ export default function Resumo(){
             (Linux e Windows), banco de dados (SQL) e facilidade em engenharia de
             requisitos (UML).
             </p>
-        </div>
+        </section>
     )
 }

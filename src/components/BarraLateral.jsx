@@ -4,7 +4,7 @@ export default function BarraLateral(){
     return(
         <aside className='barraLateral--aside' id='barra'>
             <div className="englobaElementos--aside">
-                <img src="https://media.licdn.com/dms/image/D4E03AQHULy8MeJIGQA/profile-displayphoto-shrink_800_800/0/1668528078101?e=1684972800&v=beta&t=_AvAVX-jKHrmIEg7_ovWBwMotQ6qy0SBKV3J6YzlIiU" className="minhaFoto--aside"/>
+                <img src="https://media.licdn.com/dms/image/D4E03AQHULy8MeJIGQA/profile-displayphoto-shrink_200_200/0/1668528078101?e=1684972800&v=beta&t=BPeBaIp9dq2Zo6Pf6SgtAE7oC6OvXybXLoCq3bOhR7w" className="minhaFoto--aside"/>
                 <h1>Vitória Piloto</h1>
                 <h4>20 anos, front-end developer </h4>
                 <span>Cursando Análise e Desenvolvimento de Sistemas</span>
@@ -17,7 +17,7 @@ export default function BarraLateral(){
                 <hr id='hr--aside'/>
                 <h1>Hard Skills:</h1>
                 <br/>
-                <ul>
+                <ul id='hard-skills--aside'>
                     <li>NDG Linux Unhatched | Cisco</li>
                     <li>IT Essencials | Cisco</li>
                     <li>Introdução a Cibersegurança | Cisco</li>

@@ -1,0 +1,12 @@
+import React from 'react'
+
+export default function Projetos(props){
+    return(
+        <section className="center" id='projeto'>
+            <div className='item'><h2 className="titulo--projetos"> {props.nomeProjeto}</h2></div>
+            <div className='item'><img src={props.img}/></div>
+            <div className='item'>{props.deploy && <h3><a href={props.deploy}>Deploy</a></h3>}</div>
+            <div className='item'><hr/></div>
+        </section>
+    )
+}
