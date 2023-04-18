@@ -62,4 +62,19 @@ export default [
         deploy:"",
         repo: "https://github.com/VitoriaPiloto/studies-react",
     }
+    ,
+    {
+        id: 10,
+        nomeProjeto: "Timer",
+        img: "https://github.com/VitoriaPiloto/studies-react/raw/main/Timer/timerGif.gif",
+        deploy:"https://timerreact.vitoriapiloto.repl.co/",
+        repo: "https://github.com/VitoriaPiloto/studies-react",
+    },
+    {
+        id: 11,
+        nomeProjeto: "Speed Text Game",
+        img: "https://github.com/VitoriaPiloto/studies-react/raw/main/Speed%20Text%20Game/speedText.gif",
+        deploy:"https://textspeed.vitoriapiloto.repl.co/",
+        repo: "https://github.com/VitoriaPiloto/studies-react",
+    }
 ];
